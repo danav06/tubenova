@@ -15,6 +15,12 @@ export default async function seoFiles(event: SeoEvent, next: () => Promise<unkn
   const path = event.url.pathname;
   const origin = originOf(event);
 
+  if (path === "/google0021d7e22885d43f.html") {
+    return new Response("google-site-verification: google0021d7e22885d43f.html", {
+      headers: { "content-type": "text/html; charset=utf-8" },
+    });
+  }
+
   if (path === "/robots.txt") {
     return new Response(`User-agent: *\nAllow: /\n\nSitemap: ${origin}/sitemap.xml\n`, {
       headers: { "content-type": "text/plain; charset=utf-8", "cache-control": "public, max-age=3600" },
