@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "YouTube subscriber count and social insights | OrbitCount",
+      "hasCanvas": false,
+      "bodyTextLen": 1856,
+      "bodyTextHash": "7601aeeab3ab2951c473c936b8773060cb80d24c1a0d983157a5712d6925a716",
+      "bodyTextPrefix": "OrbitCount Home YouTube Instagram Facebook Blog Check a channel ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "YouTube subscriber count and social insights | OrbitCount",
+      "hasCanvas": false,
+      "bodyTextLen": 1793,
+      "bodyTextHash": "283055fd1b7998c60b6d3662e97ddf4d64747f02ecfc0e82e71ebc63dacda46b",
+      "bodyTextPrefix": "OrbitCount LIVE PUBLIC SOCIAL STATS Watch a subscriber count mov",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

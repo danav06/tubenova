@@ -1,0 +1,1 @@
+var e=`orbitcount.posts`;function t(){if(typeof window>`u`)return[];try{let t=window.localStorage.getItem(e);if(!t)return[];let n=JSON.parse(t);return Array.isArray(n)?n.filter(e=>e&&typeof e.slug==`string`&&typeof e.title==`string`):[]}catch{return[]}}function n(t){window.localStorage.setItem(e,JSON.stringify(t))}export{n,t};
